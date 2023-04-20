@@ -1,4 +1,5 @@
-<a href="https://lemon4ik6484.github.io/for_my_server/">Site</a><br>
+<a href="https://lemon4ik6484.github.io/for_my_server/main.html">Site</a><br>
+<a href="https://lemon4ik6484.github.io/for_my_server/">Read me</a><br>
 <a href="https://lemon4ik6484.github.io/for_my_server/12.jpg">Forest</a><br>
 <a href="https://lemon4ik6484.github.io/for_my_server/52.jpg">Forest2</a><br>
 <a href="https://lemon4ik6484.github.io/for_my_server/downloadfile.png">Frog</a><br>
