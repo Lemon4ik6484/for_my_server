@@ -13,14 +13,15 @@
 <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 <script>
     MinecraftAPI.getServerStatus('s.nerd.nu', {
-        port: 25565 // optional, only if you need a custom port
+        ip: 86.223.47.125;
+        port: 25565; // optional, only if you need a custom port
     }, function (err, status) {
         if (err) {
             return document.querySelector('.server-status').innerHTML = 'Error loading status';
         }
 
         // you can change these to your own message!
-        document.querySelector('.server-online').innerHTML = status.online ? 'up' : 'down';
+        document.querySelector('.server-online').innerHTML = status.online ? 'online' : 'offline';
     });
 </script>
     <a href="http://86.223.47.125:8100"><h1>server map</h1></a>
