@@ -12,9 +12,8 @@
 
 <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
 <script>
-    MinecraftAPI.getServerStatus('s.nerd.nu', {
-        ip: 86.223.47.125;
-        port: 25565; // optional, only if you need a custom port
+    MinecraftAPI.getServerStatus('86.223.47.125', {
+        port: 25565 // optional, only if you need a custom port
     }, function (err, status) {
         if (err) {
             return document.querySelector('.server-status').innerHTML = 'Error loading status';
