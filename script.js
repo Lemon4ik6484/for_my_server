@@ -1,7 +1,7 @@
-function copyToClipboard(element) {
-  var $temp = $("<input>");
-  $("body").append($temp);
-  $temp.val($(element).text()).select();
-  document.execCommand("copy");
-  $temp.remove();
-}
+fetch('https://api.mcstatus.io/v2/status/java/86.223.47.125:25565')
+  .then(res => {
+    return res.json();
+  })
+  .then(data => {
+    console.log(data)
+  })

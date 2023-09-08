@@ -15,4 +15,34 @@ body{
 
 .no_link{
   color: black;
+  text-decoration: none;
+}
+
+.button{
+  background-color: rgb(120, 192, 255);
+  width: 200px;
+  border: solid;
+  border-color: black;
+  border-radius: 12px;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 10px;
+}
+
+table{
+  border-spacing: 31px;
+}
+
+embed{
+  border: solid;
+  border-color: black;
+}
+
+td{
+  margin: 20px;
+}
+
+* {
+  font-family: "Open Sans", "Helvetica", "Arial", sans-serif;
 }
